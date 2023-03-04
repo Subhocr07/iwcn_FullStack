@@ -1,0 +1,223 @@
+                   /* //// NOTES CSS //// */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(222, 223, 223);
+}
+.navbar{
+    background-color: rgb(28, 31, 31);
+    width: 98%;
+    height: auto;
+    padding: 1%;
+}
+.itams{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    color:  white;
+}
+.btn{
+    width: 100%;
+    display:flex ;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 5%;
+}
+.post-btn{
+    font-size: 23px;
+    border: none;
+    border-radius: 20px;
+    width: 13%;
+    height: 50px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(28, 31, 31);
+}
+.post-btn:hover{
+     background-color: rgb(61, 61, 61);
+}
+.Card-container{
+    width: 100%;
+    display: flex; 
+    margin-top: 1%;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 15px;
+}
+.content{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+     margin-top: 3%;
+     /* text-align: center; */
+    border-radius: 20px;
+    background: #f8f7f7;
+    padding: 5px 10px  30px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  
+}
+.icon-container{
+    display: flex;
+    gap: 12px;
+    margin-top: 2%;
+    justify-content:flex-end;
+}
+.icon1{
+    color:black ;
+    font-size: 25px;
+    cursor: pointer;
+}
+.icon2{
+    font-size: 25px;
+    cursor: pointer;
+}
+.icon1:hover{
+    color: rgb(145, 144, 144);
+}
+.icon2:hover{
+    color: red;
+}
+.title-info{
+   
+    overflow: auto;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 4%;
+    color: #141414;
+    
+ }
+ .description-info{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5%;
+    color: #6e6969;
+ }
+ 
+  @media (max-width:1000px) {
+     .content .card{
+      background: #fff;
+      width: calc(50% - 20px);
+      margin-bottom: 30px;
+  }
+  }
+  @media (max-width:715px) {
+   .content .card{
+      width: 100%;
+  }
+  }
+ 
+             /* /////// ADDNOTES  AND UPDATE  CSS //////// */
+.input{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   top:50%;
+   margin-top: 15%;
+   gap:20px;
+}
+.input-field{
+    width: 30%;
+    padding: 3px 20px;
+    font-size: large;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #fdfdfd;
+}
+.input-field2{
+    width: 30%;
+    padding: 20px;
+    font-size: large;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+}
+.send-btn{
+    font-size: 23px;
+    border: none;
+    border-radius: 20px;
+    width: 13%;
+    height: 40px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(28, 31, 31);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FCEADE;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon1,
+.icon2 {
+    font-size: 20px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon1:hover,
+.icon2:hover {
+    color: #4CAF50;
+}
+
+.title-info {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.description-info {
+    font-size: 18px;
+    color: #333;
+}
+
+.title-label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.description-label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.title-info,
+.description-info {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
